@@ -1,0 +1,9 @@
+.img-sec {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.img {
+  height: 200px;
+}

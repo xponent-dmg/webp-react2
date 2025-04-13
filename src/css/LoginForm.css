@@ -1,0 +1,15 @@
+h2 {
+  justify-self: center;
+}
+.form-container {
+  width: 300px;
+}
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
