@@ -1,24 +1,9 @@
-// const UserPosts = ({ posts }) => {
-//   return (
-//     <div className="user-posts">
-//       <h3>User Posts</h3>
-//       <ul>
-//         {posts.map((post, index) => (
-//           <li key={index}>{post}</li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// };
-
-// export default UserPosts;
-
-const PostsList = ({ articles }) => {
+const UserPosts = ({ posts }) => {
   return (
-    <div className="posts-section">
-      <h3>Recent Posts</h3>
+    <div className="user-posts">
+      <h3>User Posts</h3>
       <ul>
-        {articles.map((post, index) => (
+        {posts.map((post, index) => (
           <li key={index}>{post}</li>
         ))}
       </ul>
@@ -26,4 +11,4 @@ const PostsList = ({ articles }) => {
   );
 };
 
-export default PostsList;
+export default UserPosts;

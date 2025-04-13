@@ -4,7 +4,7 @@ function Pictures() {
   return (
     <div className="img-sec">
       <img src={reactLogo} alt="react pic" className="img" />
-      <img src="/images/menu-icon.png" alt="menu pic" className="img" />
+      <img src="/public/images/menu-icon.png" alt="menu pic" className="img" />
     </div>
   );
 }
